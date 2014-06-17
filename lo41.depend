@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1189864956 source:d:\revision c++ 2013\lo41\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1388963851 
+
+1388328438 source:d:\revision c++ 2013\lo41\objet.c
+	"Objet.h"
+
+1388962757 d:\revision c++ 2013\lo41\objet.h
+
+1388330959 source:d:\revision c++ 2013\lo41\anneau.c
+	"anneau.h"
+
+1388963851 d:\revision c++ 2013\lo41\anneau.h
+	"Objet.h"
+
+1389303378 source:/home/achille/lo41/capteur.c
+	"capteur.h"
+	"anneau.h"
+	"robot.h"
+
+1388972192 /home/achille/lo41/capteur.h
+	"anneau.h"
+
+1389364824 /home/achille/lo41/anneau.h
+	"Objet.h"
+
+1389318846 /home/achille/lo41/Objet.h
+
+1389361827 /home/achille/lo41/robot.h
+	"anneau.h"
+
+1389305889 source:/home/achille/lo41/robot.c
+	"robot.h"
+
+1389364823 source:/home/achille/lo41/anneau.c
+	"anneau.h"
+	"stdio.h"
+	"unistd.h"
+	"Objet.h"
+	"robot.h"
+
+1389370208 source:/home/achille/lo41/cerebro.c
+	"cerebro.h"
+	"global.h"
+	"anneau.h"
+
+1389304703 /home/achille/lo41/cerebro.h
+	<stdio.h>
+	<pthread.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<sys/types.h>
+	"Objet.h"
+
+1389367815 /home/achille/lo41/cerebro_anneau.h
+	<pthread.h>
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<sys/types.h>
+
+1389368049 /home/achille/lo41/global.h
+	"Objet.h"
+	"anneau.h"
+
+1389370512 source:/home/achille/lo41/main.c
+	<stdio.h>
+	<stdlib.h>
+	"global.h"
+	"Objet.h"
+	"anneau.h"
+	"robot.h"
+	"cerebro.h"
+	"capteur.h"
+
+1389358688 source:/home/achille/lo41/Objet.c
+	"Objet.h"
+	<stdio.h>
+	<stdlib.h>
+
+1389370998 source:/home/achille/lo41/thread.c
+	"cerebro_anneau.h"
+	"global.h"
+	"anneau.h"
+	"robot.h"
+	"cerebro.h"
+
